@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/js/all.min.css" />
+    <!-- start css code -->
+    <link rel="icon" href="HMS_logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- end css code -->
+    <!-- start js code -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sweetalert.js"></script>
+    <!-- end js code -->
+    <title>Homepage</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-md bg-light shadow-lg fixed-top navbar-light"
+    >
+      <div class="container-fluid">
+        <img src="images/HMS_logo.webp" class="rounded-circle" width="60" alt="img-not-found" />
+        <a href="#" class="mx-4 text-white navbar-brand"> Hotel Management System </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#myMenu
+"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="myMenu">
+          <ul class="navbar-nav w-100 justify-content-end">
+            <li class="nav-item fw-bold text-white">Rohit</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br /><br /><br />
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- nav tab -->
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a href="#signup" class="nav-link active" data-bs-toggle="tab">
+                Signup
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#login" class="nav-link" data-bs-toggle="tab"> Login </a>
+            </li>
+          </ul>
+          <!-- nav panes -->
+          <div class="tab-content">
+            <div class="tab-pane active container mt-3" id="signup">
+              <img src="" class="w-25" alt="" />
+              <form class="reg-form">
+                <input
+                  required
+                  name="fullname"
+                  type="text"
+                  placeholder="Fullname"
+                  class="mb-3 form-control"
+                />
+                <input
+                  required
+                  name="hotelname"
+                  type="text"
+                  placeholder="HotelName"
+                  class="mb-3 form-control"
+                />
+                <input
+                  required
+                  name="totalRoom"
+                  type="number"
+                  placeholder="No of hotel rooms"
+                  class="mb-3 form-control"
+                />
+                <input
+                  required
+                  name="mobile"
+                  type="number"
+                  placeholder="Mobile"
+                  class="mb-3 form-control"
+                />
+                <input
+                  required
+                  name="email"
+                  type="email"
+                  placeholder="Email"
+                  class="mb-3 form-control"
+                />
+                <input
+                  required
+                  name="password"
+                  type="password"
+                  placeholder="Password"
+                  class="mb-3 form-control"
+                />
+                <button type="submit" class="btn btn-primary w-100">
+                  Register
+                </button>
+              </form>
+            </div>
+            <div class="tab-pane container mt-3" id="login">
+              <form class="login-form">
+                <input
+                  required
+                  type="email"
+                  placeholder="Email"
+                  class="mb-3 form-control"
+                />
+                <input
+                  required
+                  type="password"
+                  placeholder="Password"
+                  class="mb-3 form-control"
+                />
+                <button type="submit" class="btn btn-primary w-100">
+                  Login
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/homepage.jpeg" alt="homepage_image" />
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
